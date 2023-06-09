@@ -1,3 +1,25 @@
+input.onButtonPressed(Button.A, function () {
+    cuteBot.forward()
+    basic.pause(2000)
+    cuteBot.stopcar()
+})
+input.onButtonPressed(Button.B, function () {
+    cuteBot.backforward()
+    basic.pause(2000)
+    cuteBot.stopcar()
+})
+basic.showIcon(IconNames.Heart)
 basic.forever(function () {
-	
+    cuteBot.forward()
+    basic.pause(200)
+    cuteBot.motors(100, 40)
+    basic.pause(1000)
+    cuteBot.forward()
+    basic.pause(200)
+    cuteBot.forward()
+    basic.pause(500)
+    cuteBot.motors(40, 100)
+    basic.pause(100)
+    cuteBot.forward()
+    basic.pause(200)
 })

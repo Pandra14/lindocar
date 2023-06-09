@@ -1,10 +1,12 @@
 {
-    "name": "lindocar",
+    "name": "lindobot",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "cutebot": "github:elecfreaks/pxt-cutebot#v6.1.6",
+        "radio-broadcast": "*"
     },
     "files": [
         "main.blocks",
